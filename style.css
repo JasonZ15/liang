@@ -131,7 +131,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 				#left-area { float: left; width: 692px; position:relative; }
 				#sidebar { float: left; width: 268px; position:relative; background:url(images/sidebar-bg.png) no-repeat 0px -1px; }
 					#recent-products { position: absolute; left: 40%; top: -22px; }
-					#main-products { padding-top: 43px; margin-bottom: 12px; height: 400px; overflow-y: scroll;}
+					#main-products { padding-top: 43px; margin-bottom: 12px; }
 						.main-product { float: left; width:117px; margin-right:52px; position: relative; margin-bottom: 38px; }
 						.last { margin-right: 0px; }
 							.main-product .price-tag { background:url(images/price-tag2.png) no-repeat; position:absolute; top: -6px; left: 0px; width:49px; height: 42px; font-family: Georgia, serif; font-size: 14px; color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); padding-top:20px; padding-right: 2px; text-align: center; display: none;}
