@@ -598,7 +598,7 @@ function boutique_display_product( $post_iterator, $template_name ){
 		?>
 		<a href="<?php the_permalink(); ?>">
 			<?php print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width, $height, ''); ?>
-			<span class="price-tag"><span><?php echo boutique_currency_sign(); ?></span><?php echo boutique_price(); ?></span>
+			<span class="price-tag"><span>$<?php //echo boutique_currency_sign(); ?></span><?php echo boutique_price(); ?></span>
 		</a>
 		<h4 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 		<div class="et-links clearfix">

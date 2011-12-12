@@ -24,7 +24,7 @@
 				if ($footerNav == '') show_page_menu($menuID);
 				else echo($footerNav);
 			?>
-			<p id="copyright"><?php esc_html_e('Designed by ','Boutique'); ?> <a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant WordPress Themes</a> | <?php esc_html_e('Powered by ','Boutique'); ?> <a href="http://www.wordpress.org">WordPress</a></p>
+			<p id="copyright">© 建恩（北京）科技有限公司</p>
 		</div> <!-- end .container -->
 	</div> <!-- end #footer-bottom -->
 	<div id="bottom-color-stripes"></div>

@@ -34,7 +34,7 @@
 						}
 					?>
 				</div> <!-- #et-slides-items -->
-				<span class="price-tag"><span><?php echo boutique_currency_sign(); ?></span><?php echo boutique_price(); ?></span>
+				<span class="price-tag"><span>$<?php //echo boutique_currency_sign(); ?></span><?php echo boutique_price(); ?></span>
 				<a id="et-single-left-arrow" href="#"><?php esc_html_e('Previous','Boutique'); ?></a>
 				<a id="et-single-right-arrow" href="#"><?php esc_html_e('Next','Boutique'); ?></a>
 			</div> <!-- #et-slides -->
