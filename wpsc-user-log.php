@@ -19,6 +19,7 @@ global $files, $separator, $purchase_log, $col_count, $products, $links; ?>
 			<a href="<?php echo get_option( 'user_account_url' ) . $separator . "downloads=true"; ?>"><?php _e('Your Downloads','wpsc'); ?></a>
 			<?php do_action('wpsc_additional_user_profile_links', '|'); ?>
 		</div>
+		<?php if (function_exists('post_from_site')) {post_from_site(8,'上传我的照片');} ?>
 	<?php endif; ?>
 
 	<br />
@@ -165,7 +166,7 @@ global $files, $separator, $purchase_log, $col_count, $products, $links; ?>
 					<input type="hidden" name="redirect_to" value="<?php echo get_option( 'user_account_url' ); ?>" />
 				</p>
 			</form>
-
+<p class='et-registration'><?php esc_html_e('Not a member?','Boutique'); ?> <a href='<?php echo site_url('wp-login.php?action=register', 'login_post'); ?>'><?php esc_html_e('Register today!','Boutique'); ?></a></p>
 		<?php endif; ?>
 
 	<?php endif; ?>
