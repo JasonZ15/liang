@@ -17,10 +17,11 @@ Template Name: Home Page
 			</div> <!-- end #left-area -->
 			<div class="promos">
 				<ul>				
-					<li><a href="/ipad/" onclick="s_objectID=&quot;http://www.apple.com/ipad/_2&quot;;return this.s_oc?this.s_oc(e):true"><img src="<?php echo get_template_directory_uri(); ?>/images/promo_03.jpg" alt="iPad 2. Now with iOS 5 and iCloud, it just got even harder to put down."></a></li>
-					<li><a href="/macbookair/" onclick="s_objectID=&quot;http://www.apple.com/macbookair/_1&quot;;return this.s_oc?this.s_oc(e):true"><img src="<?php echo get_template_directory_uri(); ?>/images/promo_05.jpg" alt="MacBook Air. Everyone should have a notebook this advanced. And now everyone can."></a></li>
-					<li><a href="/ipodtouch/videos/#tv-spot" onclick="s_objectID=&quot;http://www.apple.com/ipodtouch/videos/#tv-spot_1&quot;;return this.s_oc?this.s_oc(e):true"><img src="<?php echo get_template_directory_uri(); ?>/images/promo_07.jpg" alt="Watch the iPod touch TV ad."></a></li>
-					<li><a href="http://store.apple.com/us/browse/holiday?aid=www-homepage-holidaygiftguide" onclick="s_objectID=&quot;http://store.apple.com/us/browse/holiday?aid=www-homepage-holidaygiftguide_1&quot;;return this.s_oc?this.s_oc(e):true"><img src="<?php echo get_template_directory_uri(); ?>/images/promo_09.jpg" alt="Shop the Holiday Gift Guide. Discover amazing presents. All with free shipping"></a></li>	
+					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/promo_03.jpg" alt=""></a></li>
+					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/promo_05.jpg" alt=""></a></li>
+					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/promo_07.jpg" alt=""></a></li>
+					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/promo_09.jpg" alt=""></a></li>	
+					<li style="clear: both; width:965px; margin: 10px 0 16px 0;height:166px;"><a href="#"><img style="display: inline;" src="<?php echo get_template_directory_uri(); ?>/images/featured_24.jpg" /><img style="display: inline;" src="<?php echo get_template_directory_uri(); ?>/images/featured_21.jpg" /><img style="display: inline;" src="<?php echo get_template_directory_uri(); ?>/images/featured_19.jpg" /><img style="display: inline;" src="<?php echo get_template_directory_uri(); ?>/images/featured_16.jpg" /></a></li>
 				</ul>
 			</div>
 		</div> <!-- end #main-content-bottom-bg -->

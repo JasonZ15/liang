@@ -41,13 +41,7 @@
 	<div id="color-stripes"></div>
 	<div id="header">
 		<div class="container clearfix">
-			<div id="logo-area">
-				<a href="<?php echo home_url(); ?>">
-					<?php $logo = (get_option('boutique_logo') <> '') ? esc_attr(get_option('boutique_logo')) : get_template_directory_uri() . '/images/logo.png'; ?>
-					<img src="<?php echo esc_url($logo); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>" id="logo"/>
-				</a>
-				<p id="slogan"><?php echo esc_html(get_bloginfo('description')); ?></p>
-			</div> <!-- end #logo-area -->
+			
 			
 			<div id="search-form">
 				<form method="get" id="searchform" action="<?php echo home_url(); ?>/">
@@ -75,9 +69,8 @@
 			else echo($primaryNav); ?>
 			
 			<div class="clear"></div>
-						
-			<div id="menu-content">
-				<div id="menu-shadow"></div>
+						<div id="menu-content">
+				<!--<div id="menu-shadow"></div>-->
 				<?php $menuClass = 'nav clearfix';
 				$menuID = 'secondary-menu';
 				$secondaryNav = '';
