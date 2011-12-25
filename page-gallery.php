@@ -61,7 +61,7 @@ $et_ptemplate_gallery_perpage = isset( $et_ptemplate_settings['et_ptemplate_gall
 							<?php get_template_part('includes/no-results'); ?>
 						<?php endif; wp_reset_query(); ?>
 					</div> <!-- end #et_pt_gallery -->
-					
+					<a class="single-addtocart et-shop-item addtogallery" href="<?php echo get_permalink( 7 ); ?>"><?php esc_html_e('上传我的照片', 'Boutique'); ?></a>
 				</div> <!-- end #main-products -->
 			</div> <!-- end #left-area -->
 			

@@ -45,7 +45,7 @@
 				</div> <!-- end .single-item-ratings -->
 			
 				<?php the_excerpt(); ?>
-				<a class="single-addtocart et-shop-item" href="#<?php echo boutique_product_name('entry'); ?>"><?php esc_html_e('Add To Cart', 'Boutique'); ?></a>
+				<a class="single-addtocart et-shop-item" href="#<?php echo boutique_product_name('entry'); ?>"><?php esc_html_e('加入购物车', 'Boutique'); ?></a>
 				<?php do_action('boutique_product_entry'); ?>
 			</div> <!-- end .item-description -->
 			

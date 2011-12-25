@@ -14,12 +14,12 @@ global $files, $separator, $purchase_log, $col_count, $products, $links; ?>
 <div class="wrap">
 	<?php if ( is_user_logged_in() ) : ?>
 		<div class="user-profile-links">
-			<a href="<?php echo get_option( 'user_account_url' ); ?>"><?php _e('Purchase History','wpsc'); ?></a> |
-			<a href="<?php echo get_option( 'user_account_url' ) . $separator . "edit_profile=true"; ?>"><?php _e('Your Details','wpsc'); ?></a> |
-			<a href="<?php echo get_option( 'user_account_url' ) . $separator . "downloads=true"; ?>"><?php _e('Your Downloads','wpsc'); ?></a>
+			<a href="<?php echo get_option( 'user_account_url' ); ?>"><?php _e('购买历史','wpsc'); ?></a> |
+			<a href="<?php echo get_option( 'user_account_url' ) . $separator . "edit_profile=true"; ?>"><?php _e('我的信息','wpsc'); ?></a> |
+			<?php if (function_exists('post_from_site')) {post_from_site(8,'上传我的照片');} ?> |
+			<?php if (function_exists('post_from_site')) {post_from_site(9,'我要提问');} ?>
 			<?php do_action('wpsc_additional_user_profile_links', '|'); ?>
 		</div>
-		<?php if (function_exists('post_from_site')) {post_from_site(8,'上传我的照片');} ?>
 	<?php endif; ?>
 
 	<br />

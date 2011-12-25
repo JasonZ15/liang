@@ -59,7 +59,7 @@ $et_ptemplate_blog_perpage = isset( $et_ptemplate_settings['et_ptemplate_blog_pe
 								
 								<?php if (!$et_ptemplate_blogstyle) { ?>
 									<p><?php truncate_post(550);?></p>
-									<a href="<?php the_permalink(); ?>" class="readmore"><span><?php esc_html_e('read more','Boutique'); ?></span></a>
+									<!--<a href="<?php the_permalink(); ?>" class="readmore"><span><?php esc_html_e('read more','Boutique'); ?></span></a>-->
 								<?php } else { ?>
 									<?php the_content(''); ?>
 								<?php } ?>
@@ -77,7 +77,7 @@ $et_ptemplate_blog_perpage = isset( $et_ptemplate_settings['et_ptemplate_blog_pe
 						<?php endif; wp_reset_query(); ?>
 					
 					</div> <!-- end #et_pt_blog -->
-					
+					<a class="single-addtocart et-shop-item addtogallery" href="<?php echo get_permalink( 7 ); ?>"><?php esc_html_e('我要提问', 'Boutique'); ?></a>
 				</div> <!-- end #main-products -->
 			</div> <!-- end #left-area -->
 			

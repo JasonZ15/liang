@@ -178,7 +178,7 @@ padding-top:6px; min-height: 85px; }
 		.et-protected-form p input:focus { border-color:#2D3940; color:#3E3E3E; }
 		.et-protected-form input.etlogin-button { background: url(images/protected-login-bg.png) no-repeat; border: none; width: 59px; height: 24px; float: right; color: #ffffff; font-size: 11px; text-shadow: -1px -1px 1px #000000;  font-family: Arial, sans-serif; }
 		
-		.et-protected-form label { color: #757575; font-size: 14px; }
+		.et-protected-form label { color: #757575; font-size: 12px; }
 		p.et-registration { text-align: right; font: 12px Georgia, serif; color: #757575; }
 		p.et-registration a { color: #424242; font-style: italic; font-weight: bold; }
 		
