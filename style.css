@@ -39,6 +39,7 @@ del { text-decoration: line-through; }
 
 /* tables still need 'cellspacing="0"' in the markup */
 table { border-collapse: collapse; border-spacing: 0; background: transparent url(images/cp/body-bg6.png) repeat 0 0;}
+.wpsc table {background: transparent url(images/cp/body-bg17.png) repeat 0 0;}
 table {
 	width:90%;
 	border-top:1px solid #ccc;
@@ -152,9 +153,9 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 /*------------------------------------------------*/
 
 #color-stripes { background: url(images/color-stripes.png) repeat-x; height: 4px; border-bottom: 1px solid #ffffff; }
-	#header { background: url(images/header-bg.png) repeat-x; padding-bottom: 30px; padding-top: 8px; }
+	#header { background: url(images/header-bg.png) repeat-x; padding-bottom: 30px; padding-top: 18px; }
 		.container { text-align: left; margin: 0 auto; width: 960px; position: relative; }
-			#logo-area { float: left; margin-bottom: 18px; }
+			#logo-area { float: left; margin-bottom: 18px; padding-top: 8px;}
 				#logo { padding-right: 15px; float: left; }
 				p#slogan { float: right; font-size: 12px; font-family: Georgia, serif; color: #000000; font-style: normal; padding-top: 9px; padding-left: 13px; background: url(images/slogan-bg.png) no-repeat 0px 7px; }
 			#search-form { float: right; background: url(images/search-bg.png) no-repeat; width: 127px; height: 26px; margin-top: 7px; }
@@ -313,7 +314,7 @@ ul#top-menu li { padding-right: 2px; }
 				ul#top-menu li:hover ul ul, ul#top-menu li.sfHover ul ul { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; top: -10px !important; left: 209px !important; }
 	
 ul#secondary-menu li { font-family: 'Kreon', Arial, sans-serif; }
-	ul#secondary-menu a { font-size: 14px; color: #434343; text-decoration: none; padding: 18px 9px 15px; }
+	ul#secondary-menu a { font-size: 14px; color: #434343; text-decoration: none; padding: 13px 9px 12px; }
 	ul#secondary-menu a:hover { color: #7cb7b5; }
 	/*ul#secondary-menu li { border-left: 1px solid transparent; border-right: 1px solid transparent; }*/
 		ul#secondary-menu li ul li { border: none; }
@@ -359,7 +360,7 @@ background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .8)), color
 				#featured #controllers a { display: inline-block; background: url(images/featured-controller.png) no-repeat; margin-right: 4px; text-indent: -9999px; width: 11px; height: 11px; }
 				#featured #controllers a.activeSlide { background: url(images/featured-controller-active.png) no-repeat; }
 				
-			.featured-price { background: url(images/price-area.png) no-repeat; width: 283px; height: 85px; position: absolute; right: -300px; bottom: 20px; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); display: none;}
+			.featured-price { background: url(images/price-area.png) no-repeat; width: 283px; height: 85px; position: absolute; left: 52px; bottom: -39px; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); display: none;}
 				.featured-price a { color: #fff; font-size: 11px; text-transform: uppercase; }
 				.featured-price a:hover { text-decoration: none; color: #ffeb7d; }
 				

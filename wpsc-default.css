@@ -883,7 +883,8 @@ background-color: #f5f5f5;
 }
 
 #checkout_page_container .wpsc_make_purchase{
-	bottom: 20px;
+	bottom: 0px;
+	right: 33px;
 	float: right;
 	position: relative;
 }
@@ -945,7 +946,7 @@ background-color: #f5f5f5;
 }
 
 #checkout_page_container table.checkout_cart {
-	border:none;
+	
 }
 
 #checkout_page_container table.checkout_cart tr, #content #checkout_page_container table.checkout_cart tr {

@@ -77,7 +77,7 @@ $et_ptemplate_blog_perpage = isset( $et_ptemplate_settings['et_ptemplate_blog_pe
 						<?php endif; wp_reset_query(); ?>
 					
 					</div> <!-- end #et_pt_blog -->
-					<a class="single-addtocart et-shop-item addtogallery" href="<?php echo get_permalink( 7 ); ?>"><?php esc_html_e('我要提问', 'Boutique'); ?></a>
+					<a class="single-addtocart addtogallery" href="<?php echo get_permalink( 7 ); ?>"><?php esc_html_e('我要提问', 'Boutique'); ?></a>
 				</div> <!-- end #main-products -->
 			</div> <!-- end #left-area -->
 			

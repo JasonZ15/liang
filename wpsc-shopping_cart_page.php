@@ -350,10 +350,9 @@ endif;
                "<div class='wpsc_email_address'>
                   <p class='<?php echo wpsc_checkout_form_element_id(); ?>'>
                      <label class='wpsc_email_address' for='" . wpsc_checkout_form_element_id() . "'>
-                     " . __('Enter your email address', 'wpsc') . "
+                     " . __('Enter your email address: ', 'wpsc') . "
                      </label>
-                  <p class='wpsc_email_address_p'>
-                  <img src='https://secure.gravatar.com/avatar/empty?s=60&amp;d=mm' id='wpsc_checkout_gravatar' />
+                  
                   " . wpsc_checkout_form_field();
                   
                    if(wpsc_the_checkout_item_error() != '')
@@ -366,7 +365,7 @@ endif;
                   <?php echo wpsc_checkout_form_name();?>
                   </label>
                </td>
-               <td>
+               <td style="text-align: left;">
                   <?php echo wpsc_checkout_form_field();?>
                    <?php if(wpsc_the_checkout_item_error() != ''): ?>
                           <p class='validation-error'><?php echo wpsc_the_checkout_item_error(); ?></p>
