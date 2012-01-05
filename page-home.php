@@ -15,8 +15,8 @@ Template Name: Home Page
 				</div> <!-- end #main-products -->
 				<?php if (get_option('boutique_show_pagescomments') == 'on') comments_template('', true); ?>
 			</div> <!-- end #left-area -->
-			<div class="promos">
-				<ul>				
+			<div class="promos" class="clearfix">
+				<ul class="clearfix">				
 					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/promo_03.jpg" alt=""></a></li>
 					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/promo_05.jpg" alt=""></a></li>
 					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/promo_07.jpg" alt=""></a></li>

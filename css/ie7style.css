@@ -10,3 +10,15 @@ a { cursor: pointer; }
 
 h3.offer-title { z-index: 50; }
 .boutique_description_border { background: #fff; z-index: 400; }
+
+#menu-content {background: #fff url(../images/nav-bg-ie.jpg) no-repeat -5px -8px; z-index: 9999999; }
+
+#header {z-index: 999999;}
+#search-form {z-index: 9999999999999;}
+
+#main-content { background: #fff url(../images/main-content.png) no-repeat 0 0; padding-top: 4px; }
+
+#menu-content ul#secondary-menu > li.current_page_item > a, #menu-content ul#secondary-menu > li.current-menu-ancestor > a {
+background: #333;}
+
+.promos {height: 370px;}
