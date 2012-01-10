@@ -178,7 +178,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 		.special-item { float: left; width:154px; margin-right:43px; position: relative; }
 		.last { margin-right: 0px; }
 			.special-item .price-tag, #et-slides .price-tag { background:url(images/price-tag.png) no-repeat; position:absolute; top: -6px; left: -18px; width:85px; height: 53px; font-family: Georgia, serif; font-size: 20px; color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); padding-top:6px; padding-right: 3px; text-align: center; }
-			#et-slides .price-tag { z-index: 100; left: 123px; top: -18px; }
+			#et-slides .price-tag { z-index: 100; left: 123px; top: -18px; display: none;}
 			.special-item a:hover { text-decoration: none; }
 				.special-item .price-tag span, #et-slides .price-tag span { position:absolute; top: 7px; left: 6px; font-family: Georgia, serif; font-size: 12px; color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);  }
 			.special-item h4.title  { font-family: Georgia, serif; font-size: 16px; text-align: center; padding-bottom: 12px; }	
@@ -197,7 +197,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 					#main-products { padding-top: 43px; margin-bottom: 12px; }
 						.main-product { float: left; width:117px; margin-right:52px; position: relative; margin-bottom: 38px; }
 						.last { margin-right: 0px; }
-							.main-product .price-tag { background:url(images/price-tag2.png) no-repeat; position:absolute; top: -6px; left: 0px; width:49px; height: 42px; font-family: Georgia, serif; font-size: 14px; color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); padding-top:11px; padding-right: 2px; text-align: center; }
+							.main-product .price-tag { background:url(images/price-tag2.png) no-repeat; position:absolute; top: -6px; left: 0px; width:49px; height: 42px; font-family: Georgia, serif; font-size: 14px; color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); padding-top:11px; padding-right: 2px; text-align: center; display: none;}
 							.main-product a:hover { text-decoration: none; }
 								.main-product .price-tag span { position:absolute; top: -1px; left: 21px; font-family: Georgia, serif; font-size: 12px; color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);  }
 							.main-product h4.title  { font-family: Georgia, serif; font-size: 14px; text-align: center; padding-bottom: 12px; }	
@@ -211,7 +211,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 		.boutique_description_border { border: 1px solid #dfdfdf; position: absolute; top: 1px; left: 100px; -moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.1); -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.1); box-shadow: 2px 2px 4px rgba(0,0,0,0.1); display: none; z-index: 40; }
 			.boutique_description { background: #fff url(images/description-bg.png) repeat-x bottom left; border: 1px solid #fff; width: 290px; padding: 20px 26px; }
 				.boutique_description h4.description-title { font-size: 18px; color: #434343; float: left; width: 195px; }
-				.boutique_description .price { color: #7ab5af; font-size: 24px; float: right; }
+				.boutique_description .price { color: #7ab5af; font-size: 24px; float: right; display: none;}
 				.boutique_description h4.description-title, .boutique_description .price { font-family: Georgia, serif; }
 				
 		.boutique_description_border, .boutique_description { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
@@ -249,7 +249,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 		h3.related_products, h3#comments, h3#reply-title { top: -16px; left: 38%; }
 		
 	.fullwidth #main-content-bg, .fullwidth #main-content-bottom-bg { background: none; }
-	.fullwidth #left-area { width: auto; }
+	.fullwidth #left-area { width: auto; float: left;}
 	.fullwidth .related-items, .fullwidth #comment-wrap, .fullwidth #respond { background: url(images/main-content.png) no-repeat; }
 	
 	a.single-addtocart { background: url(images/single-addtocart.png) no-repeat; display: block; height: 58px; font-family: 'Kreon', Arial, sans-serif; font-size: 30px; color: #fff;font-style: normal; text-shadow: 1px 1px 1px rgba(0,0,0,0.3); padding-left: 69px; line-height: 51px; margin-top: 20px; }
