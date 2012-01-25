@@ -61,6 +61,10 @@ global $wp_query;
 		
 	
 		<div class="wpsc_default_product_list">
+			
+			
+					<img src="<?php echo wpsc_category_image(); ?>" alt="<?php echo wpsc_category_name(); ?>" width="<?php echo wpsc_get_meta(wpsc_category_id(), 'image_width', 'wpsc_category'); ?>" />
+					
 		<?php $i = 0; ?>
 		<?php /** start the product loop here */?>
 		<?php while (wpsc_have_products()) :  wpsc_the_product(); ?>

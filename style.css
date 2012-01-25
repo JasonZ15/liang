@@ -70,8 +70,9 @@ td {
 	border-bottom:1px solid #ccc;
 	border-left:1px solid #ccc;
 	padding:.3em 1em;
-	text-align:center;
-	}				
+	text-align:left;
+	}	
+td.menu {width:100px;}			
 th {
 	font-weight:normal;
 	color: #333;
@@ -252,7 +253,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 	.fullwidth #left-area { width: auto; float: left;}
 	.fullwidth .related-items, .fullwidth #comment-wrap, .fullwidth #respond { background: url(images/main-content.png) no-repeat; }
 	
-	a.single-addtocart { background: url(images/single-addtocart.png) no-repeat; display: block; height: 58px; font-family: 'Kreon', Arial, sans-serif; font-size: 30px; color: #fff;font-style: normal; text-shadow: 1px 1px 1px rgba(0,0,0,0.3); padding-left: 69px; line-height: 51px; margin-top: 20px; }
+	a.single-addtocart { background: url(images/single-addtocart.png) no-repeat; display: block; height: 58px; font-family: 'Kreon', Arial, sans-serif; font-size: 22px; color: #fff;font-style: normal; text-shadow: 1px 1px 1px rgba(0,0,0,0.3); padding-left: 54px; line-height: 41px; margin-top: 20px; }
 	a.single-addtocart:hover { text-decoration: none; color: #f8f8f8; }
 	a.single-addtocart.addtogallery {padding-left: 3px; background: url(images/single-addtogallery.png) no-repeat;width:260px;margin: 20px auto;text-align: center;}
 		
