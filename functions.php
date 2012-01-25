@@ -590,8 +590,8 @@ function boutique_display_product( $post_iterator, $template_name ){
 	global $post; ?>
 	<div class="main-product<?php if ( $post_iterator % 4 == 0 ) echo ' last'; ?>">
 		<?php
-			$width = 113;
-			$height = 96;
+			$width = wpsc_get_meta(wpsc_category_id(), 'image_width', 'wpsc_category');
+			$height = wpsc_get_meta(wpsc_category_id(), 'image_height', 'wpsc_category');
 			$titletext = get_the_title();
 			$thumbnail = get_thumbnail($width,$height,'',$titletext,$titletext,false,'Entry');
 			$thumb = $thumbnail["thumb"];
